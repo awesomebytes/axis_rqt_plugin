@@ -1,0 +1,12 @@
+<library path="lib/libaxis_rqt_plugin">
+  <class name="rqt_axis_teleop/AxisTeleop" type="rqt_axis_teleop::AxisTeleop" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A GUI plugin to teleop axis cameras.
+    </description>
+    <qtgui>
+      <label>Axis Teleop</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>A GUI plugin to teleop axis cameras.</statustip>
+    </qtgui>
+  </class>
+</library>
